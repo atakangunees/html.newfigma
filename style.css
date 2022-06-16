@@ -1,0 +1,118 @@
+body{
+    background: #0575E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.header{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+     -webkit-backdrop-filter: blur(4px);
+     -o-backdrop-filter: blur(4px);
+     -moz-backdrop-filter: blur(4px);
+     backdrop-filter: blur(4px);
+     
+}
+.header ul {
+    list-style: none;
+    text-align: left;
+    display: inline-flex;
+    
+}
+.first{
+    
+    text-decoration: none;
+    font-family: 'Poiret One', cursive;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    color: white;
+    opacity: 1;
+    
+    
+    
+}
+.second,
+.third,
+.last{
+    width: 200px;
+    text-decoration: none;
+    padding-left: 100px;
+    color: floralwhite;
+    font-family: 'Poiret One', cursive;
+    
+}
+
+.first:hover{
+    opacity: 0.8;
+    color: #0575E6;   
+}
+.second:hover,
+.third:hover,
+.last:hover{
+    color: #0575E6; 
+    
+}
+
+
+
+.img-set{
+    width: 100%;
+    height: 611px;
+  
+    
+}
+
+.img-set img{
+    width: 1000px;
+    height: 611px;
+}
+.sndpage{
+    width: 100%;
+    height: 611px;
+
+}
+.sndpage img{
+    width: 611px;
+    height: 611px;
+    padding-left: 600px;
+    padding-bottom: 611px;
+}
+.bttmline{
+    width: 1293px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+     -webkit-backdrop-filter: blur(4px);
+     -o-backdrop-filter: blur(4px);
+     -moz-backdrop-filter: blur(4px);
+     backdrop-filter: blur(4px);
+}
+.bttmline {
+    font-family: 'Poiret One', cursive;
+    color: white;
+    margin-top: 600px;
+}
+.bttmline li{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+    line-height: 50px;
+    width: 50px;
+}
+.bttmline i{
+    color: white;
+    text-decoration: none;
+}
+.bttmline i:hover{
+    color: #0575E6;
+}
+
+
+
+
